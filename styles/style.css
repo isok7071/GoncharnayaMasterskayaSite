@@ -137,7 +137,7 @@ a.navber-brand {
 
 .about-us h2 {
   font-size: 36px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .about-us-blob {
@@ -237,7 +237,7 @@ a.navber-brand {
 }
 
 .master-class-container h2 {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   font-size: 36px;
 }
 
@@ -346,7 +346,7 @@ a.navber-brand {
 }
 
 .events-container .events-head h2 {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   font-size: 36px;
 }
 
@@ -434,7 +434,7 @@ a.navber-brand {
 .work-container h4 {
   font-size: 28px;
   font-family: "YanoneKaffeesatz-Regular";
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   color: #ffffff;
   font-weight: 400 !important;
   margin: 0;
@@ -482,7 +482,7 @@ a.navber-brand {
   margin-top: 100px;
 }
 .guests-works-head h2 {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 .guests-works-head p {
   font-family: "YanoneKaffeesatz-Regular";
@@ -512,7 +512,7 @@ a.navber-brand {
   margin-bottom: 40px;
 }
 .form-container .form-head h2 {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 .form-container .form-head p {
   font-size: 28px;
@@ -690,5 +690,14 @@ footer a:focus {
 @media screen and (max-width: 540px) {
   .main p {
     padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  .row-about-us{
+    flex-wrap: wrap;
+  }
+  .row-about-us-2{
+    flex-wrap: wrap;
   }
 }
